@@ -4,7 +4,7 @@
 
 Name:           python-lxml
 Version:        3.2.1
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        ElementTree-like Python bindings for libxml2 and libxslt
 
 Group:          Development/Libraries
@@ -117,6 +117,12 @@ popd
 %endif
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.2.1-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.2.1-3
+- Mass rebuild 2013-12-27
+
 * Thu Jul 11 2013 Jiri Popelka <jpopelka@redhat.com> - 3.2.1-2
 - spurious XMLSyntaxError after finishing iterparse() (bug #874546)
 
